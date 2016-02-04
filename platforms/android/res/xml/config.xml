@@ -12,7 +12,7 @@
         <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
     </feature>
     <allow-intent href="market:*" />
-    <name>ContactInfoNSharing</name>
+    <name>Contact Sharing</name>
     <description>Hello World sample application that responds to the deviceready event.</description>
     <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
     <content src="index.html" />
