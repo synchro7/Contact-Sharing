@@ -1,21 +1,21 @@
 {
-	"prepare_queue": {
-		"installed": [],
-		"uninstalled": []
-	},
-	"config_munge": {
-		"files": {}
-	},
-	"installed_plugins": {
-		"cordova-plugin-whitelist": {
-			"PACKAGE_NAME": "com.phonegap.contactsharing"
-		},
-		"cordova-plugin-contacts": {
-			"PACKAGE_NAME": "com.phonegap.contactsharing"
-		},
-		"cordova-plugin-x-socialsharing": {
-			"PACKAGE_NAME": "com.phonegap.contactsharing"
-		}
-	},
-	"dependent_plugins": {}
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.phonegap.contactsharing"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.phonegap.contactsharing"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.phonegap.contactsharing"
+        }
+    },
+    "dependent_plugins": {}
 }
