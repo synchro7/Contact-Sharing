@@ -34,13 +34,21 @@ var app = {
 	// function, we must explicitly call 'app.receivedEvent(...);'
 	onDeviceReady: function () {
 
-		function onSuccess(contacts) {
+		function onSuccess(allcontacts) {
 			var str = "",
 				mPage = "",
 				phoneNumberList = "",
 				phones = "",
 				emailList = "",
-				emails = "";
+				emails = "",
+				sortContact = function (array) {
+					return array.sort(function (a, b) {
+						var x = a.name.formatted;
+						var y = b.name.formatted;
+						return ((x < y) ? -1 : ((x > y) ? 1 : 0));
+					});
+				},
+				contacts = sortContact(allcontacts);
 			for (i = 0; i < contacts.length; i++) {
 				// if(contacts[i].name.formatted != '') {
 				//fetch phonenumber
