@@ -82,10 +82,11 @@ var app = {
 			}
 			var content = document.getElementById('contact-list');
 			content.innerHTML = str;
-			ons.compile(content);
+//			ons.compile(content);
 			var content2 = document.body;
 			content2.innerHTML += mPage;
-			ons.compile(content2);
+//			ons.compile(content2);
+			ons.bootstrap();
 		}
 
 		function onError(contactError) {
